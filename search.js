@@ -1,7 +1,8 @@
 /*global angular */
 
-var app = angular.module("searchBar", []);
+var mySearch = angular.module('searchBar', []);
     
-app.controller('search', function($scope){
-        $scope.widget = {title: 'What would you like to search?');
-};
+mySearch.controller('search', function ($scope) {
+    "use strict";
+    $scope.widget = {title: 'What would you like to search?'};
+});
