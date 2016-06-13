@@ -1,0 +1,42 @@
+html{
+    
+}
+
+body {
+    background-image: url("SF1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+  height: 10%;
+  width:100%;
+  position: fixed;
+  display:inline;
+}
+
+.menu ul {
+  width:100%;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 60px;
+  padding: 5px;
+  display:inline;
+  float: left;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.bar{
+  float:right; 
+  padding-left: 50px;
+}
