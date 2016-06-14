@@ -1,33 +1,36 @@
+html{
+    
+}
 
 body {
-    background-image: url("beach.jpg");
+    background-image: url("SF1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .menu {
-  width:90%;
+  height: 10%;
+  width:100%;
   position: fixed;
   display:inline;
 }
 
 .menu ul {
   width:100%;
-  margin:0;
-  padding:0;
-  position:center;
 }
 
 .menu li {
+  border-bottom: 1px solid #636366;
   font-family: 'Open Sans', sans-serif;
   line-height: 60px;
-  display:inline;
   padding: 5px;
+  display:inline;
+  float: left;
 }
 
 .menu a {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -35,18 +38,10 @@ body {
 
 .bar{
   float:right; 
+  padding-left: 50px;
 }
 
-input{
-    margin-top:25%;
-    margin-left: 33%;
-    width:350px;
-    height:40px;
-}
 
-button{
-    font-size:18px;
-    font-family: 'Open Sans', sans-serif;
-    height:45px;
-    background-color: paleturquoise;
+.searchie {
+  margin-top: 10px;
 }
